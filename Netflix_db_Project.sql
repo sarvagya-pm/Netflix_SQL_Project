@@ -3,9 +3,9 @@ SELECT * FROM netflix_db.netflix;
  
 -- 1. Count the number of Movies vs TV Shows
 
-select type, count(*) as total_content
-from netflix 
-group by type;
+SELECT type, COUNT(*) as total_content
+FROM netflix 
+GROUP BY type;
 
 -- 2. Find the most common rating for movies and TV shows
 
